@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Ruben Arena — NLP • Data • Applied AI</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="background">
+      <div class="blob blob--one"></div>
+      <div class="blob blob--two"></div>
+      <div class="blob blob--three"></div>
+    </div>
+
+    <div id="intro" class="intro" aria-hidden="false">
+      <div class="intro__content">
+        <p class="intro__eyebrow">Welcome</p>
+        <h1 class="intro__headline">Ruben Arena</h1>
+        <p class="intro__tagline">NLP • Data • Applied AI</p>
+        <button id="skipIntro" class="button button--ghost" type="button">
+          Skip
+        </button>
+      </div>
+    </div>
+
+    <header class="hero" id="top">
+      <nav class="nav">
+        <span class="nav__logo">RA</span>
+        <div class="nav__links">
+          <a href="#projects">Projects</a>
+          <a href="#about">About</a>
+          <a href="mailto:hello@example.com">Email</a>
+        </div>
+      </nav>
+
+      <div class="hero__content">
+        <p class="hero__eyebrow">Ruben Arena</p>
+        <h1 class="hero__title">NLP • Data • Applied AI</h1>
+        <p class="hero__subtitle">
+          <span class="highlight">Founder of Emome</span> • Building practical AI
+          systems and shipping open-source contributions.
+        </p>
+        <div class="hero__actions">
+          <a class="button" href="/assets/Ruben_Arena_CV.pdf">View CV</a>
+          <a class="button button--ghost" href="https://www.linkedin.com/in/"
+            >LinkedIn</a
+          >
+          <a class="button button--ghost" href="mailto:hello@example.com"
+            >Email</a
+          >
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section id="projects" class="section section--projects">
+        <div class="section__header">
+          <h2>Projects</h2>
+          <p>Selected builds focused on evaluation, analysis, and reliability.</p>
+        </div>
+        <div class="card-grid">
+          <article class="card">
+            <h3>LLaMA NLP Eval + CI</h3>
+            <p>
+              Added lightweight BLEU/ROUGE + diversity metrics, tests, and GitHub
+              Actions CI; upstream PR to Meta repo.
+            </p>
+            <div class="card__actions">
+              <a class="button button--small" href="https://github.com/rubenantareinc/llama">Repo</a>
+              <a class="button button--ghost button--small" href="#">PR</a>
+            </div>
+          </article>
+          <article class="card">
+            <h3>palantir_inspired</h3>
+            <p>
+              End-to-end NLP pipeline + evaluation plots, built for storytelling
+              and analysis.
+            </p>
+            <div class="card__actions">
+              <a
+                class="button button--small"
+                href="https://github.com/rubenantareinc/palantir_inspired"
+                >Repo</a
+              >
+            </div>
+          </article>
+          <article class="card">
+            <h3>SpaceX_starship</h3>
+            <p>
+              Incident narrative to structured insights: explainers, summaries,
+              and analysis.
+            </p>
+            <div class="card__actions">
+              <a
+                class="button button--small"
+                href="https://github.com/rubenantareinc/SpaceX_starship"
+                >Repo</a
+              >
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="about" class="section section--about">
+        <div class="section__header">
+          <h2>About</h2>
+        </div>
+        <p class="about__copy">
+          I study Management &amp; AI at LUISS Guido Carli and build NLP systems
+          focused on evaluation, reliability, and human-centered products. I’m
+          also the founder of Emome.
+        </p>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>© Ruben Arena • Built with GitHub Pages</p>
+    </footer>
+
+    <button id="backToTop" class="back-to-top" aria-label="Back to top">
+      ↑
+    </button>
+
+    <script src="script.js"></script>
+  </body>
+</html>
