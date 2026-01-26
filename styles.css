@@ -323,15 +323,15 @@ a {
 
 /* --- Hero avatar --- */
 .hero__avatar {
-  width: 96px;
-  height: 96px;
+  width: 128px;
+  height: 128px;
   border-radius: 999px;
   object-fit: cover;
-  border: 1px solid rgba(255,255,255,0.18);
+  border: 1px solid rgba(255,255,255,0.22);
   box-shadow:
-    0 0 0 6px rgba(255,255,255,0.04),
-    0 0 40px rgba(120, 160, 255, 0.16);
-  margin-bottom: 0.25rem;
+    0 0 0 8px rgba(255,255,255,0.05),
+    0 0 60px rgba(120, 160, 255, 0.22);
+  margin-bottom: 0.5rem;
 }
 
 /* Type line under subtitle */
