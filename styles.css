@@ -360,3 +360,9 @@ a {
     height: 84px;
   }
 }
+/* Center name under hero avatar */
+.hero__avatar + .hero__eyebrow {
+  display: block;
+  text-align: center;
+  width: 100%;
+}
