@@ -323,14 +323,14 @@ a {
 
 /* --- Hero avatar --- */
 .hero__avatar {
-  width: 128px;
-  height: 128px;
+  width: 160px;
+  height: 160px;
   border-radius: 999px;
   object-fit: cover;
   border: 1px solid rgba(255,255,255,0.22);
   box-shadow:
-    0 0 0 8px rgba(255,255,255,0.05),
-    0 0 60px rgba(120, 160, 255, 0.22);
+    0 0 0 10px rgba(255,255,255,0.05),
+    0 0 80px rgba(120, 160, 255, 0.22);
   margin-bottom: 0.5rem;
 }
 
