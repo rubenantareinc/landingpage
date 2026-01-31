@@ -230,6 +230,12 @@ a {
   gap: 1.25rem;
 }
 
+@media (min-width: 900px) {
+  .card--bottom-right {
+    grid-column: 3;
+  }
+}
+
 .card h3 {
   font-size: 1.3rem;
 }
